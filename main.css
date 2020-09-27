@@ -1,7 +1,7 @@
 h1 { background-color:rgba(160, 0, 0, 0.27);}
 body{position:relative;
     top:40px;
-    background:;
+    
     background-image:url(http://you.acoda.com/demo-2/wp-content/uploads/sites/2/2015/02/brickwall-chair.jpg?id=4294);
     background-position: center;
     background-repeat:no-repeat;
@@ -10,7 +10,7 @@ body{position:relative;
     
     }
 * {
-        box-sizing: border-box;
+    box-sizing: border-box;
     }
 
 .topnav {
@@ -41,6 +41,8 @@ body{position:relative;
     background-color: black;
     color: aliceblue;
 }
-.topnav a:active{
-  background-color: black;
-color: red;
+.topnav a.active{
+
+    background-color: black;
+    color: aliceblue;
+}

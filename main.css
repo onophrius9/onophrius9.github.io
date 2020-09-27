@@ -1,2 +1,46 @@
-h1 { background-color:aqua;}
-body{background:rgba(113, 151, 222, 0.5);}
+h1 { background-color:rgba(160, 0, 0, 0.27);}
+body{position:relative;
+    top:40px;
+    background:;
+    background-image:url(http://you.acoda.com/demo-2/wp-content/uploads/sites/2/2015/02/brickwall-chair.jpg?id=4294);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+    
+    }
+* {
+        box-sizing: border-box;
+    }
+
+.topnav {
+    position: fixed;
+    width:100%;
+    top:0px;
+    left:0px;
+    z-index:1;
+    background-color: white;
+
+}
+
+.topnav a{
+    padding-right:;
+    float:left;
+    color:#fa0000;
+    text-align: center;
+    padding:14px 30px;
+
+    display:block;
+    border: 2px solid red;
+    text-decoration: none;
+
+
+}
+.topnav a:hover{
+
+    background-color: black;
+    color: aliceblue;
+}
+.topnav a:active{
+  background-color: black;
+color: red;

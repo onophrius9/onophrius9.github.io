@@ -14,7 +14,7 @@ body{position:relative;
     }
 
 .topnav {
-    position: fixed;
+    position: sticky;
     width:100%;
     top:0px;
     left:0px;
@@ -23,7 +23,7 @@ body{position:relative;
 
 }
 
-.topnav a{
+.topnavelement{
     padding-right:;
     float:left;
     color:#fa0000;
@@ -36,12 +36,12 @@ body{position:relative;
 
 
 }
-.topnav a:hover{
+.topnavelement:hover{
 
     background-color: black;
     color: aliceblue;
 }
-.topnav a.active{
+.current{
 
     background-color: black;
     color: aliceblue;

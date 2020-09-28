@@ -1,4 +1,4 @@
-h1 { background-color:rgba(160, 0, 0, 0.27);}
+
 body{
     
     background-image:url(http://you.acoda.com/demo-2/wp-content/uploads/sites/2/2015/02/brickwall-chair.jpg?id=4294);
@@ -15,7 +15,7 @@ body{
 .topnav {
     position: sticky;
     width:100%;
-    top:0px;
+    top: 0px;
     left:0px;
     
     z-index:1;

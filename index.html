@@ -24,19 +24,26 @@ body {background-color: red;
             float:left;
 }
 .header h1{font-style:italic;
-            margin:0px;
+            
+            
             }
 .header {
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
     background-color:white;
     width:100%;
-  
+    height:auto;
 
 
     border-bottom: 2px solid black;
-    padding-bottom: 30px;
-    padding-top:180px;
-    padding-left: 100px;
-    padding-right: 50px;
+        margin-bottom: 30px;
+        padding-top:100px;
+        padding-bottom: 0px;
+    /*
+        padding-bottom: 30px;
+        padding-top:180px;
+        padding-left: 100px;
+        padding-right: 50px;
+    */
 }
 
 .icon-bar a {
@@ -71,7 +78,7 @@ body {background-color: red;
 .topnav {
     position:sticky;
     width:100%;
-    height:48px;
+    height:39px;
     top: 0px;
     align-self: stretch;
     
@@ -79,7 +86,8 @@ body {background-color: red;
     background-color: white;
     color:#ffffff;
     z-index:1;
-
+    
+    border-bottom: 1px solid rgba(0, 0, 0, 0.21);
 }
 
 .topnavelement{
@@ -87,10 +95,11 @@ body {background-color: red;
     float:left;
     color:#fa0000;
     text-align: center;
-    padding:14px 30px;
+    padding:5px 10px;
 
     display:block;
    
+    font-size: 1.5em;
     text-decoration: none;
 
 }
@@ -100,9 +109,10 @@ body {background-color: red;
     
     
 .current{
-
+   
    background-image: linear-gradient(white , white, rgba( 254, 57, 57, 0.271 ));
    color: #fa0000;
+  
 }
 
 
@@ -112,11 +122,11 @@ body {background-color: red;
 }
     
 .dropdown .dropbtn {
-  font-size: 16px;
+  font-size: 1.5em;
   border: none;
   outline: none;
   color: #fa0000;
-  padding: 14px 30px;
+  padding: 5px 10px;
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
@@ -143,6 +153,9 @@ body {background-color: red;
 
 .dropdown:hover .dropdown-content {
   display: block;
+    
+ 
+
 }
         
 .all { display:block;
@@ -152,19 +165,27 @@ body {background-color: red;
         }      
 
 @media (min-width:768px){
-    .page{  background-color: white;
+    .page, .logobox{  background-color: white;
             width: 750px; 
             margin: 0 auto;
-            content: "tablet";
+            
+            
+    }
+    .page{
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,1);
     }
 }
 @media (min-width:1200px){
-    .page{  background-color: white;
+    .page, .logobox{  background-color: white;
             width:1080px;
-            height:100%;
-            display:block;
- 
+            
+            
+            
             margin: 0 auto;
+    }
+    .page{  height:100%;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,1);
+            display:block;
     }
 }
     .container {
@@ -188,16 +209,18 @@ body {background-color: red;
 <body>
 
 <div class="header">
-<div class="icon-bar">
-    
-    <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-    <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
-</div>
-<img src="https://www.durchstart.ch/wp-content/uploads/2017/07/Logo-durchstart_klein.jpg" alt="Durchstart." width="254px">
-<h1>magazin</h1>
-   </div>
+    <div class="logobox">
+        <div class="icon-bar">
 
+            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+            <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
+        </div>
+
+        <img src="https://www.durchstart.ch/wp-content/uploads/2017/07/Logo-durchstart_klein.jpg" alt="Durchstart." width="254px">
+        <h1>magazin</h1>
+   </div>
+</div>
 <div class="all">
         <div class="page">  
 
